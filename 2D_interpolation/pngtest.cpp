@@ -30,6 +30,8 @@ void ResizeBilinear(const unsigned char* pbIn, int lWidthIn,
 	return;
 }
 
+
+//вот это, кстати, возможно, не совсем корректно, там в идее бы чуть подправить, но мне зачёл со словами "ладно, сойдёт"
 void ResizeNearest(const unsigned char* pbIn, int lWidthIn,
 	int lHeightIn, unsigned char* pbOut, int lWidthOut, int lHeightOut)
 {
